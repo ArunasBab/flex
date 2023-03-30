@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body { 
+    background: linear-gradient(-90deg, #5275b4, #8e73c2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+nav {
+    width: 200px;
+    height: 100px auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+.antra {
+    margin: 10px;
+}
+
+.line {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.linedog {
+    border-top: 1px black solid;
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.big {
+    font-size: 2.5em;
+}
+
+.button {
+    width: 150px auto;
+    height: 50px;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 20px;
+}
+
+.spalva1 {
+    background: linear-gradient(0deg, #9a8ecc, #9f8fcd);
+}
+
+.spalva2 {
+    background: linear-gradient(270deg, #8790c9, #978fcb);
+}
+
+.spalva3 {
+    background: linear-gradient(-90deg, #7b90c5, #8790c9);
+}
+
+.spalva1 .pirma {
+    text-shadow: 5px 5px #9f8fcd;
+}
+
+.spalva2 .pirma {
+    text-shadow: 5px 5px #978fcb;
+}
+
+.spalva3 .pirma {
+    text-shadow: 5px 5px #8790c9;
+}
+
+@media (max-width: 680px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s;
+        margin-bottom: 30px;
+    }
+}
